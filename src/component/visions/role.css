@@ -1,0 +1,47 @@
+.titleRole {
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 0 12px;
+}
+
+.descriptionRole {
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+}
+
+.imageAndTitle {
+    display: flex;
+    gap: 14px;
+}
+
+.imageRole:nth-child(1) {
+    width: 22px;
+    height: 23px;
+}
+
+.imageRole:nth-child(2) {
+    width: 26px;
+    height: 21px;
+}
+
+.imageRole:nth-child(3) {
+    width: 22px;
+    height: 25px;
+}
+
+@media screen and (max-width: 1100px){
+    .titleRole {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .descriptionRole {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .imageAndTitle {
+        gap: 10px;
+    }
+}

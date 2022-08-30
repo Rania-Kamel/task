@@ -1,0 +1,64 @@
+.footer {
+    height: fit-content;
+    background: transparent linear-gradient(180deg, #FD5B2F00 0%, #FD5B2F1f 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.space {
+    width: 260px;
+}
+
+.spaceTitle {
+    font-size: 29px;
+    line-height: 39px;
+    color: #000000;
+    margin: 0 0 24px;
+}
+
+.spaceDescription {
+    font-size: 17px;
+    line-height: 31px;
+    color: #000000;
+    margin: 0;
+}
+
+.companyTitle,
+.partnershipTitle,
+.followUsTitle {
+    font-size: 21px;
+    line-height: 28px;
+    color: #FD5B2F;
+    margin: 0 0 25px;
+}
+
+.list {
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+.socialLinks{
+    display: flex;
+    gap: 7px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 70px;
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        gap: 70px;
+        padding: 0 50px;
+    }
+}

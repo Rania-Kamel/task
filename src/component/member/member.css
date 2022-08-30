@@ -1,0 +1,27 @@
+.member{
+    display: flex;
+    justify-content: space-between;
+    margin: 210px 0 210px ;
+    align-items: center;
+    gap: 50px;
+}
+.memberImage {
+    width: 471px;
+    height: 603px;
+}
+
+@media screen and (max-width: 1100px) {
+    .memberImage{
+       width: 400px;
+       height: 500px;
+    }
+   }
+   
+   
+   @media screen and (max-width: 830px) {
+    .member{
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+   }

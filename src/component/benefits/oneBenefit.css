@@ -1,0 +1,13 @@
+.benefitTitle {
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+    margin: 18px 0 16px;
+}
+
+.benefitDescription {
+    font-size: 13px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+}

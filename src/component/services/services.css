@@ -1,0 +1,55 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0 180px;
+    align-items: center;
+    gap: 50px;
+}
+
+.videos {
+    font: 17px;
+    line-height: 22px;
+    color: #FD5B2F;
+}
+
+.buttonAndVideo {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.buttonAndVideo p {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.buttonAndVideo p img {
+    width: 36px;
+    height: 36px;
+}
+
+@media screen and (max-width: 1100px){
+    .videos {
+        font: 14px;
+        line-height: 17px;
+    }
+    .buttonAndVideo{
+        gap: 40px;
+    }
+    .buttonAndVideo{
+        gap: 14px;
+    }
+    .buttonAndVideo p img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .services{
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+    }
+}
